@@ -1,4 +1,4 @@
-include README.md CHANGELOG.md
+include README.md CHANGELOG.md LICENSE
 include .gitignore .gitattributes
 recursive-include data *.csv
 include docs/methodology.md

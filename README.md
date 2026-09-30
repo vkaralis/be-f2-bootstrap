@@ -111,4 +111,8 @@ replicate selection and more than six raw or selected points.
 - `docs/methodology.md`: statistical specification and references.
 
 Actual sampling times were absent from the original dataset and must be supplied.
-No open-source license has been granted for this repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+Copyright (c) 2026 Vangelis D. Karalis.
