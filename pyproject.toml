@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "be-f2-bootstrap"
+version = "0.3.0"
+description = "Whole-unit bootstrap comparison of dissolution profiles"
+authors = [{name = "Vangelis D. Karalis"}]
+keywords = ["bioequivalence", "f2 dissolution testing", "bootstrap"]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.22,<3"]
+
+[project.urls]
+Repository = "https://github.com/vkaralis/be-f2-bootstrap"
+
+[project.optional-dependencies]
+dev = ["build>=1,<2"]
+
+[project.scripts]
+be-f2-bootstrap = "be_f2_bootstrap.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["be_f2_bootstrap*"]

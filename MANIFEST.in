@@ -1,0 +1,10 @@
+include README.md CHANGELOG.md
+include .gitignore .gitattributes
+recursive-include data *.csv
+include docs/methodology.md
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include .github/workflows *.yml
+prune local_reference
+prune results
+global-exclude *.docx *.m *.py[cod] .DS_Store

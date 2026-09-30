@@ -1,0 +1,29 @@
+# Local reference documents and generated analysis artifacts
+*.docx
+/local_reference/
+/results/
+f2.txt
+# Python environments and build artifacts
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Prepared upload archive
+/artifacts/
